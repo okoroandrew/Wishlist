@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wishlist</string>
+    <string name="submit">SUBMIT</string>
+    <string name="ex_https_mywish_com_list">Ex: https://mywish.com/list</string>
+    <string name="item_name">Item Name</string>
+    <string name="ex_10_5">Ex: 10.5</string>
+</resources>
