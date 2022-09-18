@@ -3,14 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:textAlignment="textEnd">
 
     <TextView
         android:id="@+id/item_name_itemContent"
         android:layout_width="244dp"
         android:layout_height="43dp"
         android:text="TextView"
+        android:textColor="@color/black"
         android:textSize="22sp"
+        android:typeface="serif"
         app:layout_constraintBottom_toTopOf="@+id/item_url_itemContent"
         app:layout_constraintEnd_toStartOf="@+id/item_price_itemContent"
         app:layout_constraintHorizontal_bias="0.183"
@@ -24,6 +27,8 @@
         android:layout_height="35dp"
         android:text="TextView"
         android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:layout_marginEnd="10dp"
         app:layout_constraintBottom_toTopOf="@+id/item_url_itemContent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,9 +39,9 @@
         android:layout_height="25dp"
         android:text="TextView"
         android:textAlignment="textEnd"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/item_price_itemContent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/item_name_itemContent"
-        app:layout_constraintTop_toBottomOf="@id/item_name_itemContent"
-        tools:layout_editor_absoluteY="47dp" />
+        app:layout_constraintTop_toBottomOf="@id/item_name_itemContent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,7 @@
 package com.example.wishlist
 
 class Wish(
-    val itemName: String,
-    val itemPrice: String,
+    var itemName: String,
+    var itemPrice: String,
     val itemUrl: String
 )
